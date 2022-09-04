@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MonAn</title>
+</head>
+<body> 
+
+    <div class="monAn">
+
+        <form class="slider-container" oninput="x.value = parseInt(a.value)">
+            <output name="x" for="a" class="PV" id="V"></output>
+            <label for="x">PV:</label>
+            <input name="a"type="range" min="10" max="90" value="50" step="1" class="slider" id="slide">
+        </form>
+
+        <div class="Values">
+            <ul class="listValues">
+                
+                <li class="AH-listItem"><span class="statusName">AH:</span> <input type="number" class="Value-input" id="AH"> </li>
+                <li class="WH-listItem"><span class="statusName">WH:</span> <input type="number" class="Value-input" id="WH"> </li>
+                <li class="WL-listItem"><span class="statusName">WL:</span> <input type="number" class="Value-input" id="WL"> </li>
+                <li class="AL-listItem"><span class="statusName">AL:</span> <input type="number" class="Value-input" id="AL"> </li>
+            </ul>
+        </div>
+
+        <div class="status-container">
+            <h1 class="status-header">Статус:</h1>
+            <span class="status-display"><span class="start" id="display"></span></span>
+        </div>
+    </div>
+
+    <script src="MonAn.js"> </script>
+</body>
+</html>

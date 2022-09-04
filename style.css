@@ -1,0 +1,108 @@
+body{
+    background-color: darkgray;
+}
+
+.monAn{
+    background-color: dimgrey;
+    width: 800px;
+    height: 300px;
+    border: black 2px solid;
+    border-radius: 8px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.slider-container{
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+    background-color:grey;
+    border-radius: 8px;
+}
+
+.slider{
+    flex-grow: 1;
+    width: 85%;
+}
+
+.Values{
+    flex-grow: 1.5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.listValues{
+    list-style-type: none;
+    line-height: 3em;
+    padding-left: 0;
+}
+
+.status-header{
+    font-weight: bold;
+}
+
+.statusName{
+    display: inline-block;
+    width: 45px;
+}
+
+.Value-input{
+    width: 50px;
+    border-radius: 3px;
+    border: black 1.5px solid;
+    margin-right: 30px;
+}
+
+.PV{
+    display: inline-block;
+    width: 200px;
+    border-radius: 3px;
+    border: black 1.5px solid;
+    margin-right: 30px;
+    background-color:lightsteelblue;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    margin: 10px 0;
+    font-size: 40px;
+    color: mediumblue;
+}
+
+.status-container{
+    flex-grow: 1;
+    padding: 15px 0;
+}
+
+.status-display{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background-color: lightsteelblue;
+    border: black 1.5px solid;
+    border-radius: 5px;
+    line-height: 150px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.start{
+    color: blue;
+}
+
+.normal{
+    color: green;
+}
+
+.warning{
+    color: yellow;
+}
+
+.alarm{
+    color: red;
+}
+ 
